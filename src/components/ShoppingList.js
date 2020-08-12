@@ -4,7 +4,7 @@ import { Container, ListGroup, ListGroupItem, Button } from 'reactstrap';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { connect } from 'react-redux';
 import { getItems, deleteItem, insertItem } from '../actions/itemAction';
-import uuid from 'react-uuid';
+import uuid from 'react-uuid';//
 
 class ShoppingList extends Component {
 
